@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <script src="/js/index.js" defer></script>
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="calculator-container">
+      <div class="form-section">
+        <div class="input-container">
+          <label for="">DAY</label>
+          <input id="day-input" type="number" placeholder="DD">
+          <p class="error-message error-message-day">Message</p>
+        </div>
+        <div class="input-container">
+          <label for="">MONTH</label>
+          <input  id="month-input" type="number" placeholder="MM">
+          <p class="error-message error-message-month">Message</p>
+        </div>
+        <div class="input-container">
+          <label for="">YEAR</label>
+          <input  id="year-input" type="number" placeholder="YYYY">
+          <p class="error-message error-message-year">Message</p>
+        </div>
+        <div class="button-container">
+          <button id="calculate"><img src="/assets/images/icon-arrow.svg" alt="" srcset=""></button>
+        </div>
+      </div>
+      <div class="result-container">
+        <p><span class="years-output">--</span>years</p>
+        <p><span class="months-output">--</span>months</p>
+        <p><span class="days-output">--</span>days</p>
+      </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ivan Ray N. Castillo</a>.
+  </div>
+</body>
+</html>
